@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "drug-safety": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/gopipamulapati/drug-safety-mcp", "drug-safety-mcp"],
+      "env": { "OPENFDA_API_KEY": "" }
+    }
+  }
+}

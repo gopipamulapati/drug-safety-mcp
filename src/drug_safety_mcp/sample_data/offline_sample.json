@@ -1,0 +1,215 @@
+{
+ "_note": "ILLUSTRATIVE OFFLINE SAMPLE - abbreviated, paraphrased and not real openFDA data. Use live mode for real results.",
+ "labels": {
+  "warfarin": {
+   "openfda": {
+    "generic_name": [
+     "WARFARIN SODIUM"
+    ],
+    "brand_name": [
+     "Jantoven",
+     "Warfarin Sodium"
+    ],
+    "manufacturer_name": [
+     "Sample Pharma Inc."
+    ]
+   },
+   "effective_time": "20240101",
+   "boxed_warning": [
+    "WARNING: BLEEDING RISK. Warfarin can cause major or fatal bleeding. Monitor INR regularly. Drugs, dietary changes, and other factors affect INR levels."
+   ],
+   "indications_and_usage": [
+    "Prophylaxis and treatment of venous thrombosis and pulmonary embolism; reduction of thromboembolic complications associated with atrial fibrillation or cardiac valve replacement."
+   ],
+   "contraindications": [
+    "Pregnancy (except in women with mechanical heart valves); hemorrhagic tendencies; recent or planned CNS or eye surgery."
+   ],
+   "warnings_and_cautions": [
+    "Tissue necrosis, calciphylaxis and systemic atheroemboli have been reported. Consider more frequent INR monitoring when starting or stopping interacting drugs."
+   ],
+   "adverse_reactions": [
+    "Fatal and nonfatal hemorrhage from any tissue or organ; necrosis of skin and other tissues; nausea, vomiting, diarrhea, taste perversion, abdominal pain."
+   ],
+   "drug_interactions": [
+    "Concomitant use with drugs that increase bleeding risk, such as antiplatelet agents, NSAIDs including ibuprofen and naproxen, and serotonin reuptake inhibitors, increases the risk of bleeding. CYP2C9, 1A2 and 3A4 inhibitors such as fluconazole and amiodarone may increase INR."
+   ]
+  },
+  "ibuprofen": {
+   "openfda": {
+    "generic_name": [
+     "IBUPROFEN"
+    ],
+    "brand_name": [
+     "Advil",
+     "Motrin IB"
+    ],
+    "manufacturer_name": [
+     "Sample Consumer Health"
+    ]
+   },
+   "effective_time": "20230915",
+   "boxed_warning": [
+    "Cardiovascular thrombotic events and gastrointestinal bleeding, ulceration and perforation risk. NSAIDs may increase the risk of serious cardiovascular and GI adverse events."
+   ],
+   "indications_and_usage": [
+    "Relief of signs and symptoms of rheumatoid arthritis and osteoarthritis, mild to moderate pain, and primary dysmenorrhea."
+   ],
+   "contraindications": [
+    "Known hypersensitivity to ibuprofen; history of asthma or urticaria after aspirin or other NSAIDs; setting of CABG surgery."
+   ],
+   "warnings_and_cautions": [
+    "Hepatotoxicity, hypertension, heart failure and edema, renal toxicity, anaphylactic reactions, serious skin reactions."
+   ],
+   "adverse_reactions": [
+    "Nausea, epigastric pain, heartburn, dizziness, rash, GI bleeding."
+   ],
+   "drug_interactions": [
+    "Anticoagulants: the combination of NSAIDs and anticoagulants such as warfarin has a synergistic effect on bleeding. ACE inhibitors and diuretics: NSAIDs may reduce the antihypertensive effect. Lithium and methotrexate levels may increase."
+   ]
+  },
+  "metformin": {
+   "openfda": {
+    "generic_name": [
+     "METFORMIN HYDROCHLORIDE"
+    ],
+    "brand_name": [
+     "Glucophage"
+    ],
+    "manufacturer_name": [
+     "Sample Generics LLC"
+    ]
+   },
+   "effective_time": "20240305",
+   "boxed_warning": [
+    "WARNING: LACTIC ACIDOSIS. Postmarketing cases of metformin-associated lactic acidosis have resulted in death. Risk factors include renal impairment, iodinated contrast, surgery, hypoxic states and excessive alcohol intake."
+   ],
+   "indications_and_usage": [
+    "Adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years and older with type 2 diabetes mellitus."
+   ],
+   "contraindications": [
+    "Severe renal impairment (eGFR below 30 mL/min/1.73 m2); metabolic acidosis including diabetic ketoacidosis."
+   ],
+   "warnings_and_cautions": [
+    "Vitamin B12 deficiency; hypoglycemia with concomitant insulin or insulin secretagogues."
+   ],
+   "adverse_reactions": [
+    "Diarrhea, nausea/vomiting, flatulence, asthenia, indigestion, abdominal discomfort, headache."
+   ],
+   "drug_interactions": [
+    "Carbonic anhydrase inhibitors such as topiramate may increase the risk of lactic acidosis. Drugs that reduce metformin clearance such as ranolazine, dolutegravir and cimetidine may increase metformin exposure. Alcohol potentiates the effect of metformin on lactate metabolism."
+   ]
+  }
+ },
+ "events": {
+  "warfarin": {
+   "counts": [
+    {
+     "term": "INTERNATIONAL NORMALISED RATIO INCREASED",
+     "count": 9120
+    },
+    {
+     "term": "HAEMORRHAGE",
+     "count": 6480
+    },
+    {
+     "term": "GASTROINTESTINAL HAEMORRHAGE",
+     "count": 5210
+    },
+    {
+     "term": "HAEMATURIA",
+     "count": 2130
+    },
+    {
+     "term": "ANAEMIA",
+     "count": 1990
+    },
+    {
+     "term": "EPISTAXIS",
+     "count": 1720
+    }
+   ],
+   "total": 88000
+  },
+  "ibuprofen": {
+   "counts": [
+    {
+     "term": "DRUG INEFFECTIVE",
+     "count": 5400
+    },
+    {
+     "term": "NAUSEA",
+     "count": 3900
+    },
+    {
+     "term": "GASTROINTESTINAL HAEMORRHAGE",
+     "count": 2600
+    },
+    {
+     "term": "ACUTE KIDNEY INJURY",
+     "count": 2100
+    },
+    {
+     "term": "RASH",
+     "count": 1800
+    },
+    {
+     "term": "DIZZINESS",
+     "count": 1500
+    }
+   ],
+   "total": 61000
+  },
+  "metformin": {
+   "counts": [
+    {
+     "term": "DIARRHOEA",
+     "count": 8100
+    },
+    {
+     "term": "NAUSEA",
+     "count": 7300
+    },
+    {
+     "term": "LACTIC ACIDOSIS",
+     "count": 5600
+    },
+    {
+     "term": "VOMITING",
+     "count": 4200
+    },
+    {
+     "term": "BLOOD GLUCOSE INCREASED",
+     "count": 3900
+    },
+    {
+     "term": "ACUTE KIDNEY INJURY",
+     "count": 3300
+    }
+   ],
+   "total": 142000
+  }
+ },
+ "recalls": {
+  "metformin": [
+   {
+    "recall_number": "D-0000-2020",
+    "classification": "Class II",
+    "status": "Terminated",
+    "report_date": "20200610",
+    "reason_for_recall": "CGMP deviations: NDMA impurity above the acceptable daily intake limit (sample record).",
+    "product_description": "Metformin HCl extended-release tablets, 500 mg (sample record)"
+   }
+  ],
+  "warfarin": [],
+  "ibuprofen": [
+   {
+    "recall_number": "D-0001-2019",
+    "classification": "Class III",
+    "status": "Terminated",
+    "report_date": "20190212",
+    "reason_for_recall": "Failed dissolution specifications (sample record).",
+    "product_description": "Ibuprofen tablets 200 mg (sample record)"
+   }
+  ]
+ }
+}
